@@ -15,7 +15,7 @@ describe 'School' do
     it 'is able to add a student' do
       @school.add_student("AC Slater", 10)
       expect(@school.roster).to eq({10 => ["AC Slater"]})
-    end
+    end 
 
     it 'is able to add multiple students to a class (grade)' do
       @school.add_student("Jeff Baird", 10)
